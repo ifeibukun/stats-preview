@@ -11,31 +11,50 @@ body{
     width: 100vw;
     font-family: 'Overpass', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
+    
 }
+.image{
+    width: 110%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/image-header-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 8%; 
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    border-radius: 5px 5px 0px 0px
+
+}
+.image-container{
+    margin-top: 0px;
+}
+.image-overlay{
+    background-color: hsla(277, 64%, 45%, 0.836);
+    width: 100%;
+    margin-top: 30px;
+    height: 50vh;
+    border-radius: 5px 5px 0px 0px
+
+}   
 .container{
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
-}
-.img-container{
-    /* background-color:hsl(277, 64%, 61%);; */
-    margin-top: 80px;
-}
-img{
+    /* margin-left: 15px; */
     width: 300px;
-    align-items: center;
-    justify-content: center;
-    background-image: rgb(173, 34, 57);
-    margin-left: 37px;
-    border-radius:5px 5px 0px 0px ; 
+    margin-top: 60px;
 }
 .second-container{
     background-color:  hsl(244, 38%, 16%);
     height: 490px;
-    width: 300px;
-    margin-left: 37px;
-    margin-top: -5px;
+    width: 110%;
+    margin-left: 8%;
+    margin-top: 0px;
     border-radius: 0px 0px 5px 5px;
+    justify-content: center;
 }
 .insight{
     color:hsl(277, 64%, 61%) ;
@@ -110,75 +129,4 @@ img{
     flex-direction: column;
     margin-top: 25px;
     text-align: center;
-}
-@media (min-width:1000px) {
-    .container{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .second-container{
-        display: flex;
-        width: max-content;
-        flex-direction: column;
-        width: 400px;
-        height: 350px;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10.4%;
-        border-radius: 5px 0px 0px 5px;
-        /* margin-left: -4px; */
-    }
-    img{
-        height: 350px;
-        width: 400px;
-        border-radius: 0px 5px 5px 0px;
-        margin-top: 16.5%;
-        margin-left: -1px;
-    }
-    .get-insights{
-        height: 50px;
-        width: 350px;
-        margin-top: -30 px;
-        /* background-color: red; */
-        margin-left: -5px;
-    }
-    .second-insight{
-        text-align: left;
-        margin-left:20px;
-        font-size: 25px;
-        font-weight: bold;
-        width: 300px;
-        margin-left: 5px;
-    }
-    .numbers{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: -350px;
-        /* background-color: blue; */
-        text-align: left;
-    }
-    .discover{
-        height: 50px;
-        width: 350px;
-        font-size: small;
-        margin-top: 10px;
-    }
-    #discover{
-        text-align: left;
-        margin-left: 5px;
-    }
-    .number-display-flex{
-        justify-content: space-between;
-        /* background-color: red; */
-        margin-left: 40px;
-    }
-    .number-span{
-        margin-left: 20px;
-    }
-    .number-spans{
-        margin-left: -4px;
-    }
 }
