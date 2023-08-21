@@ -22,7 +22,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-left: 8%;  */
+     margin-left: 8%;  
     align-items: center;
     justify-content: center;
     /* margin-top: 50px; */
@@ -51,7 +51,7 @@ body{
     background-color:  hsl(244, 38%, 16%);
     height: 490px;
     width: 110%;
-    /* margin-left: 8%; */
+     margin-left: 8%; 
     margin-top: 0px;
     border-radius: 0px 0px 5px 5px;
     justify-content: center;
